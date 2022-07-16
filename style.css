@@ -173,3 +173,15 @@ header {
     border: 2px solid white;
     border-radius: 10px;
 }
+
+/* Footer */
+
+footer{
+    height: 80px;
+    background-color: var(--color-darkblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
