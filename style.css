@@ -23,7 +23,8 @@ header {
     background-color: var(--color-darkblue);
 }
 
-header h2 {
+.header-logo {
+    text-decoration: none;
     font-size: 24px;
     font-weight: 800;
     color: var(--color-white);
@@ -35,7 +36,7 @@ header h2 {
     list-style: none;
 }
 
-a {
+.navigation a {
     text-decoration: none;
     font-size: 18px;
     color: var(--color-light);
