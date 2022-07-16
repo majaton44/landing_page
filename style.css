@@ -120,3 +120,27 @@ header {
 .card-img {
     width: 200px;
 }
+
+/* Quote Section */
+
+.quote-container {
+    padding: 90px;
+    background-color: var(--color-grey);
+    color: var(--color-darkblue);
+    font-size: 36px;
+}
+
+.quote {
+    margin: 0 auto 10px auto;
+    max-width: 800px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quotee {
+    margin: 0 auto 10px auto;
+    max-width: 800px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: right;
+}
