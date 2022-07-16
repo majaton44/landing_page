@@ -144,3 +144,32 @@ header {
     font-weight: 700;
     text-align: right;
 }
+
+/* Sign Up Section */
+
+.sign-container {
+    margin: 100px auto;
+    padding: 60px 0;
+    background-color: var(--color-blue);
+    color: var(--color-light);
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.sign-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.sign-button {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 40px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
