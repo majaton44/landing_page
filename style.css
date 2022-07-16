@@ -1,8 +1,8 @@
 :root {
     --color-darkblue: #1F2937;
-    --color-light: #E5E7EB;
+    --color-grey: #E5E7EB;
     --color-blue: #3882F6;
-    --color-white: #F9FaF8;
+    --color-light: #F9FaF8;
 }
 
 * {
@@ -15,19 +15,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Header */
+
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 20px 200px;
+    padding: 20px;
     background-color: var(--color-darkblue);
 }
 
 .header-logo {
     text-decoration: none;
     font-size: 24px;
-    font-weight: 800;
-    color: var(--color-white);
+    font-weight: 900;
+    color: var(--color-light);
 }
 
 .navigation {
@@ -40,4 +42,54 @@ header {
     text-decoration: none;
     font-size: 18px;
     color: var(--color-light);
+}
+
+/* Hero Section */
+
+.hero {
+    display: inline-block;
+    width: 100%;
+    background-color: var(--color-darkblue);
+    color: var(--color-light);
+}
+
+.hero-container {
+    margin: 80px auto;
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hero-right img {
+    display: block;
+    width: 600px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.hero-left {
+    font-size: 18px;
+    max-width: 450px;
+}
+
+.hero-left h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.hero-left p {
+    color: var(--color-grey);
+    margin-bottom: 20px;
+}
+
+.hero-btn {
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px 40px;
+    background-color: var(--color-blue);
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
