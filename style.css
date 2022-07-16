@@ -54,7 +54,7 @@ header {
 }
 
 .hero-container {
-    margin: 80px auto;
+    margin: 100px auto;
     display: flex;
     max-width: 1200px;
     justify-content: space-between;
@@ -76,6 +76,7 @@ header {
 
 .hero-left h1 {
     font-size: 42px;
+    font-weight: 900;
     margin-bottom: 20px;
 }
 
@@ -86,10 +87,36 @@ header {
 
 .hero-btn {
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 700;
     padding: 10px 40px;
     background-color: var(--color-blue);
     color: white;
     border: none;
     border-radius: 10px;
+}
+
+/* Cards Section */
+.cards-container {
+    color: var(--color-darkblue);
+}
+
+.cards-container h2 {
+    margin-top: 50px;
+    text-align: center;
+    
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.card-images {
+    margin: 40px auto 100px auto;
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    gap: 50px;
+    text-align: center;
+}
+
+.card-img {
+    width: 200px;
 }
